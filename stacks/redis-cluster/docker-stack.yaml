@@ -29,8 +29,5 @@ services:
       - "REDIS_CLUSTER_CREATOR=yes"
 volumes:
   redis-cluster_data-0:
-    driver: local
   redis-cluster_data-1:
-    driver: local
   redis-cluster_data-2:
-    driver: local
