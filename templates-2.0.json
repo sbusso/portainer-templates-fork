@@ -397,7 +397,7 @@
       "logo": "https://portainer-io-assets.sfo2.digitaloceanspaces.com/logos/redis.png",
       "repository": {
         "url": "https://github.com/sbusso/portainer-templates-fork",
-        "stackfile": "stacks/redis-cluster/docker-stack.yml"
+        "stackfile": "stacks/redis-cluster/docker-stack.yaml"
       },
       "env": [
         {
