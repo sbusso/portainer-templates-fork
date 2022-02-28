@@ -398,22 +398,7 @@
       "repository": {
         "url": "https://github.com/portainer/templates",
         "stackfile": "stacks/redis-cluster/docker-stack.yml"
-      },
-      "env": [
-        {
-          "name": "REDISCLI_AUTH",
-          "label": "Redis auth"
-        },
-        {
-          "name": "REDIS_PASSWD",
-          "label": "Redis password"
-        },
-        {
-          "name": "REDIS_CLUSTER_REPLICAS",
-          "label": "Redis cluster replicas",
-          "default": "1"
-        }
-      ]
+      }
     },
     {
       "type": 1,
